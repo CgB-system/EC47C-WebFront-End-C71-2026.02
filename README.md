@@ -10,3 +10,6 @@
 Este projeto foi desenvolvido pelos alunos:
 1. Antonio Gabriel Nunes Martins - 2865548;
 2. Carlos Gabriel Baratieri - 2706598.
+
+
+https://cgb-system.github.io/EC47C-WebFront-End-C71-2026.02/
