@@ -18,11 +18,16 @@ Pode-se acessar o GitPages por meio do link:
 
 [GitPages - Projeto Curupira](https://cgb-system.github.io/EC47C-WebFront-End-C71-2026.02/)
 
+---
+
 ## 📁 Validações e Apresentação
 
 No Drive estão disponíveis os prints das validações realizadas no **W3C Validator**, além do vídeo de apresentação do projeto.
 
-Os prints das validações também podem ser acessados diretamente no próprio repositório, por meio da estrutura de pastas apresentada anteriormente.
+Os prints das validações também estão disponíveis diretamente no repositório, organizados nas seguintes pastas:
+
+- [Prints HTML](https://github.com/cgb-system/EC47C-WebFront-End-C71-2026.02/tree/main/printsHTML-validados)
+- [Prints CSS](https://github.com/cgb-system/EC47C-WebFront-End-C71-2026.02/tree/main/printsCSS-Validado)
 
 [📂 Drive - Prints das validações e vídeo de apresentação](https://drive.google.com/drive/folders/1N4mvvWEJRk2wZ8Wf48bDUG_fs_lMxJmk?usp=sharing)
 
