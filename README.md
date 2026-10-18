@@ -12,6 +12,22 @@
 
 ---
 
+## 🌐 Acesso ao Projeto
+
+Pode-se acessar o GitPages por meio do link:
+
+[GitPages - Projeto Curupira](https://cgb-system.github.io/EC47C-WebFront-End-C71-2026.02/)
+
+## 📁 Validações e Apresentação
+
+No Drive estão disponíveis os prints das validações realizadas no **W3C Validator**, além do vídeo de apresentação do projeto.
+
+Os prints das validações também podem ser acessados diretamente no próprio repositório, por meio da estrutura de pastas apresentada anteriormente.
+
+[📂 Drive - Prints das validações e vídeo de apresentação](https://drive.google.com/drive/folders/1N4mvvWEJRk2wZ8Wf48bDUG_fs_lMxJmk?usp=sharing)
+
+---
+
 ## 📁 Estrutura do Projeto
 
 A estrutura de diretórios e arquivos do projeto está organizada da seguinte forma:
@@ -58,11 +74,15 @@ A estrutura de diretórios e arquivos do projeto está organizada da seguinte fo
 </tr>
 </table>
 
+---
+
+## Integrantes
+
 Este projeto foi desenvolvido pelos alunos:
-1. Antonio Gabriel Nunes Martins - 2865548;
-2. Carlos Gabriel Baratieri - 2706598.
 
+1. Antonio Gabriel Nunes Martins - 2865548;  
+   [Curriculum Vitae](https://antonollo.github.io/Curriculum-Vitae/)
 
-https://cgb-system.github.io/EC47C-WebFront-End-C71-2026.02/
+2. Carlos Gabriel Baratieri - 2706598;  
+   [Curriculum Vitae](https://fuyuakii.github.io/curriculum-vitae/)
 
-https://drive.google.com/drive/folders/1N4mvvWEJRk2wZ8Wf48bDUG_fs_lMxJmk?usp=sharing
