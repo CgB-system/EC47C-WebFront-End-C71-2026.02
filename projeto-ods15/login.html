@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Curupira</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+
+  <main class="layout-autenticacao">
+
+    <section class="secao-formulario">
+      <div class="caixa-formulario">
+        <p class="sobrescrito"><span class="traco"></span>BEM-VINDO DE VOLTA</p>
+        <h2 class="titulo-principal">Entrar na<br><em>Curupira</em></h2>
+        <p class="descricao">Acesse sua conta para acompanhar sua participação</p>
+
+        <form action="index.html" method="get" class="formulario">
+          <div class="grupo-campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
+          </div>
+
+          <div class="grupo-campo">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="••••••••" autocomplete="current-password" required minlength="6">
+          </div>
+
+          <div class="linha-opcoes">
+            <label class="lembrar">
+              <input type="checkbox" id="lembrar" name="lembrar">
+              Lembrar de mim
+            </label>
+          </div>
+
+          <button type="submit" class="botao-envio">Entrar</button>
+        </form>
+
+        <p class="texto-alternar">Ainda não tem uma conta? <a href="cadastro.html">Criar cadastro</a></p>
+      </div>
+    </section>
+
+    <section class="secao-arte">
+      <div class="conteudo-arte">
+        <p class="sobrescrito claro"><span class="traco"></span>ODS 15 · VIDA TERRESTRE</p>
+        <h1 class="titulo-arte">Toda vida<br>silvestre merece<br><em>proteção</em></h1>
+        <p class="texto-arte">Entre na nossa comunidade e acompanhe as ações pela biodiversidade do território</p>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
