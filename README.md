@@ -22,7 +22,7 @@ Pode-se acessar o GitPages por meio do link:
 
 ## 📁 Validações e Apresentação
 
-No Drive estão disponíveis os prints das validações realizadas no **W3C Validator**, além do vídeo de apresentação do projeto.
+No Drive estão disponíveis os prints das validações realizadas no **W3C Validator**.
 
 Os prints das validações também estão disponíveis diretamente no repositório, organizados nas seguintes pastas:
 
