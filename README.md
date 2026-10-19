@@ -31,6 +31,10 @@ Os prints das validações também estão disponíveis diretamente no repositór
 
 [📂 Drive - Prints das validações e vídeo de apresentação](https://drive.google.com/drive/folders/1N4mvvWEJRk2wZ8Wf48bDUG_fs_lMxJmk?usp=sharing)
 
+
+>[!IMPORTANT]
+> Temos 3 branches no repositório, mas a branch que deve ser consultada é a `main`. As demais servem apenas para mostrar o que cada integrante desenvolveu. A homepage é a parte desenvolvida pelo Antonio, enquanto a `feature-login-cadastro` foi desenvolvida pelo Carlos. A `main` é basicamente a unificação de ambas as partes.
+
 ---
 
 ## 📁 Estrutura do Projeto
