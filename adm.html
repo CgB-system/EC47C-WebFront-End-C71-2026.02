@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Administração | Curupira</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
@@ -34,13 +32,12 @@
     <main>
       <section id="cadastro" class="cartao">
         <h2>Cadastrar usuário</h2>
-        <form id="form-cadastro">
+        <form id="formulario-cadastro">
           <div class="campo">
             <label for="nome">Nome do usuário</label>
             <input
               type="text"
               id="nome"
-              name="nome"
               placeholder="Nome completo"
               required
             />
@@ -50,46 +47,82 @@
             <input
               type="email"
               id="email"
-              name="email"
               placeholder="seu@email.com"
               required
             />
           </div>
           <div class="acoes">
-            <button type="submit" class="btn btn-primario">Cadastrar</button>
-            <button type="button" id="btn-limpar" class="btn btn-secundario">
-              Limpar campos
-            </button>
+            <input
+              type="submit"
+              class="btn btn-primario"
+              value="Cadastrar"
+            />
+            <input
+              type="button"
+              id="btn-limpar"
+              class="btn btn-secundario"
+              value="Limpar campos"
+            />
           </div>
         </form>
       </section>
 
       <section id="usuarios" class="cartao">
         <h2>Usuários cadastrados</h2>
-
         <div class="barra-lista">
-          <div class="campo campo-select">
-            <label for="campo-pesquisa">Pesquisar por</label>
-            <select id="campo-pesquisa">
-              <option value="nome">Nome</option>
-              <option value="email">E-mail</option>
-            </select>
-          </div>
           <div class="campo campo-busca">
             <label for="pesquisa">Termo da pesquisa</label>
             <input
               type="search"
               id="pesquisa"
-              placeholder="Digite para filtrar a lista"
+              placeholder="Digite parte do nome ou e-mail"
             />
           </div>
-          <button type="button" id="btn-excluir-todos" class="btn btn-perigo">
-            Excluir todos
-          </button>
+          <div class="campo campo-filtro">
+            <p>Pesquisar por</p>
+            <div class="acoes">
+              <input
+                type="button"
+                id="btn-pesquisar-nome"
+                class="btn campo-ativo"
+                value="Nome"
+              />
+              <input
+                type="button"
+                id="btn-pesquisar-email"
+                class="btn"
+                value="E-mail"
+              />
+            </div>
+          </div>
+          <input
+            type="button"
+            id="btn-excluir-todos"
+            class="btn btn-perigo"
+            value="Excluir todos"
+          />
         </div>
 
         <ul id="lista"></ul>
-        <p id="mensagem-lista" class="mensagem" hidden></p>
+        <p id="mensagem-lista" class="mensagem"></p>
+      </section>
+
+      <section id="confirmacao" class="cartao confirmacao">
+        <p id="mensagem-confirmacao"></p>
+        <div class="acoes">
+          <input
+            type="button"
+            id="btn-confirmar"
+            class="btn btn-perigo"
+            value="Confirmar exclusão"
+          />
+          <input
+            type="button"
+            id="btn-cancelar"
+            class="btn btn-secundario"
+            value="Cancelar"
+          />
+        </div>
       </section>
     </main>
 
@@ -100,7 +133,7 @@
         <a href="https://antonollo.github.io/Curriculum-Vitae/" target="_blank">Antonio Gabriel Nunes Martins</a>
         <a href="https://fuyuakii.github.io/curriculum-vitae/" target="_blank">Carlos Gabriel Baratieri</a>
       </div>
-      <p>&copy; 2026 Vida Silvestre.</p>
+      <p>© 2026 Vida Silvestre.</p>
     </footer>
 
     <script src="./scripts/adm.js"></script>
