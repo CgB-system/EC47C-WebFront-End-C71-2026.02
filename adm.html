@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administração | Curupira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/adm.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 id="brandname">Curupira</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#sobre">Sobre Nós</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+          <li><a href="index.html#orientacoes">Encontrei um animal</a></li>
+          <li><a href="index.html#galeria">Galeria</a></li>
+          <li><a href="adm.html">Adm</a></li>
+          <li><a href="login.html">Entrar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="cadastro" class="cartao">
+        <h2>Cadastrar usuário</h2>
+        <form id="form-cadastro">
+          <div class="campo">
+            <label for="nome">Nome do usuário</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Nome completo"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              required
+            />
+          </div>
+          <div class="acoes">
+            <button type="submit" class="btn btn-primario">Cadastrar</button>
+            <button type="button" id="btn-limpar" class="btn btn-secundario">
+              Limpar campos
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section id="usuarios" class="cartao">
+        <h2>Usuários cadastrados</h2>
+
+        <div class="barra-lista">
+          <div class="campo campo-select">
+            <label for="campo-pesquisa">Pesquisar por</label>
+            <select id="campo-pesquisa">
+              <option value="nome">Nome</option>
+              <option value="email">E-mail</option>
+            </select>
+          </div>
+          <div class="campo campo-busca">
+            <label for="pesquisa">Termo da pesquisa</label>
+            <input
+              type="search"
+              id="pesquisa"
+              placeholder="Digite para filtrar a lista"
+            />
+          </div>
+          <button type="button" id="btn-excluir-todos" class="btn btn-perigo">
+            Excluir todos
+          </button>
+        </div>
+
+        <ul id="lista"></ul>
+        <p id="mensagem-lista" class="mensagem" hidden></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Vida Silvestre - Projeto ODS 15</p>
+      <div id="colaboradores">
+        <p>Currículos dos integrantes:</p>
+        <a href="https://antonollo.github.io/Curriculum-Vitae/" target="_blank">Antonio Gabriel Nunes Martins</a>
+        <a href="https://fuyuakii.github.io/curriculum-vitae/" target="_blank">Carlos Gabriel Baratieri</a>
+      </div>
+      <p>&copy; 2026 Vida Silvestre.</p>
+    </footer>
+
+    <script src="./scripts/adm.js"></script>
+  </body>
+</html>
